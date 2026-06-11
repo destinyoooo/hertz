@@ -6,7 +6,7 @@ jobs:
   unit-test-x64:
     strategy:
       matrix:
-        version: ["1.19", "1.20", oldstable, stable]
+        version: ["1.20", oldstable, stable]
     runs-on: [self-hosted, Linux, X64]
     steps:
       - uses: actions/checkout@v4
@@ -22,7 +22,7 @@ jobs:
   unit-test-arm64:
     strategy:
       matrix:
-        version: ["1.19", "1.20", oldstable, stable]
+        version: ["1.20", oldstable, stable]
     runs-on: [self-hosted, ARM64]
     steps:
       - uses: actions/checkout@v4

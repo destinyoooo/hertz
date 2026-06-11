@@ -1,17 +1,17 @@
 module github.com/cloudwego/hertz
 
-go 1.19
+go 1.20
 
 require (
-	github.com/bytedance/gopkg v0.1.3
+	github.com/bytedance/gopkg v0.1.4
 	github.com/bytedance/sonic v1.15.0
-	github.com/cloudwego/gopkg v0.1.11-0.20260303065100-1e5551ecf390
-	github.com/cloudwego/netpoll v0.7.3-0.20260305035010-81277e4f7b67
+	github.com/cloudwego/gopkg v0.2.0
+	github.com/cloudwego/netpoll v0.7.3
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/stretchr/testify v1.10.0
 	github.com/tidwall/gjson v1.14.4
-	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/sys v0.30.0
 	google.golang.org/protobuf v1.34.1
 )
 
